@@ -157,7 +157,6 @@
                   <option value="com.jetbrains.projector.libs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
