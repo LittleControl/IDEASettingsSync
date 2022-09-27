@@ -6,6 +6,10 @@
           <option name="url" value="http://10.124.128.2:8888" />
           <option name="userName" value="lizt73" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.tianti.tg.unicom.local" />
+          <option name="userName" value="lizt73" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
