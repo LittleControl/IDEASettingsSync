@@ -1,7 +1,12 @@
 <templateSet group="DIY">
-  <template name="mark" value="/**&#10; * @author lizt73&#10; * @Date $DATE$ $TIME$&#10; * @Desc &#10;**/" description="mark info" toReformat="true" toShortenFQNames="true">
+  <template name="mark" value="/**&#10; * @author lizt73&#10; * @Date $DATE$ $TIME$&#10; * @Desc  &#10;**/" description="mark info" toReformat="true" toShortenFQNames="true">
     <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fdes" value="/**&#10;*&#10;* @Desc &#10;**/" description="function desc" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
